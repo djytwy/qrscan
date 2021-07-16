@@ -1,0 +1,35 @@
+PODS:
+  - Flutter (1.0.0)
+  - image_picker (0.0.1):
+    - Flutter
+  - qrscan (0.0.1):
+    - Flutter
+    - ZBarSDK (~> 1.3.1)
+  - ZBarSDK (1.3.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - qrscan (from `.symlinks/plugins/qrscan/ios`)
+
+SPEC REPOS:
+  trunk:
+    - ZBarSDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+  qrscan:
+    :path: ".symlinks/plugins/qrscan/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  image_picker: 50e7c7ff960e5f58faa4d1f4af84a771c671bc4a
+  qrscan: 1a69e60346f30d3451d588671632b3f52e7183a1
+  ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.1
